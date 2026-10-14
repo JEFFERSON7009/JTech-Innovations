@@ -3,186 +3,277 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>JTech Innovations | ICT Solutions</title>
-
-  <meta name="description" content="JTech Innovations provides ICT support, computer services, networking, web design and digital solutions in Kenya.">
-
-  <meta name="theme-color" content="#0b1220">
+  <title>JTech Innovations | ICT & Digital Solutions</title>
+  <meta name="description" content="JTech Innovations offers computer support, networking, web design and digital solutions in Kenya.">
+  <meta name="theme-color" content="#080d18">
 
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="logo" href="#home" aria-label="JTech Innovations home">
+        JTech <span>Innovations.</span>
+      </a>
 
-  <header>
-    <div class="container">
-      <nav>
-        <a class="logo" href="#home">JTech<span> Innovations</span></a>
+      <button class="menu-toggle" id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-controls="nav-links"
+        aria-expanded="false">
+        ☰
+      </button>
 
-        <div class="nav-links">
-          <a href="#home">Home</a>
-          <a href="#services">Services</a>
-          <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-        </div>
+      <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="container">
-        <div class="hero-content">
-          <span class="eyebrow">Technology made simple</span>
+      <div class="container hero-grid">
+        <div class="reveal">
+          <span class="eyebrow">✦ Technology made practical</span>
 
           <h1>
-            Smart technology.<br>
-            <span>Better possibilities.</span>
+            We turn technology into
+            <span class="gradient-text">possibility.</span>
           </h1>
 
           <p>
-            Welcome to JTech Innovations — your partner for reliable
-            ICT support, digital solutions and technology that helps
-            people and businesses move forward.
+            Welcome to JTech Innovations — your partner for ICT
+            support, networking, web design and digital solutions
+            that help people and businesses work smarter.
           </p>
 
-          <a class="button"
-             href="https://wa.me/254714810649?text=Hello%20JTech%20Innovations%2C%20I%20would%20like%20to%20make%20an%20inquiry.">
-            Get in Touch →
-          </a>
+          <div class="button-row">
+            <a class="button" href="#contact">Let's Talk <span>→</span></a>
+            <a class="button button-outline" href="#services">Explore Services</a>
+          </div>
+        </div>
 
-          <a class="button button-outline" href="#services">
-            Explore Services
-          </a>
+        <div class="hero-art reveal" aria-label="Technology illustration">
+          <div class="tech-orb">
+            <div class="tech-core">⌘</div>
+          </div>
+          <div class="float-chip chip-one">💻 ICT Support</div>
+          <div class="float-chip chip-two">🌐 Digital Growth</div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <div class="trust-strip">
+      <div class="container trust-items">
+        <span>Practical ICT solutions</span>
+        <span>Modern web design</span>
+        <span>Customer-focused support</span>
+      </div>
+    </div>
+
+    <section class="content-section" id="services">
       <div class="container">
-        <div class="section-heading">
-          <h2>What We Do</h2>
+        <div class="section-heading reveal">
+          <span class="eyebrow">What we do</span>
+          <h2>Technology that works for you.</h2>
           <p>
-            Practical technology services designed to solve problems
-            and help you work smarter.
+            From everyday computer problems to your online presence,
+            we help you make better use of technology.
           </p>
         </div>
 
-        <div class="services">
-
-          <article class="card">
-            <div class="card-icon">💻</div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">💻</div>
             <h3>Computer Support</h3>
             <p>
-              Computer troubleshooting, software installation,
-              maintenance and technical support.
+              Troubleshooting, software installation, maintenance
+              and practical computer support.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
           </article>
 
-          <article class="card">
-            <div class="card-icon">🌐</div>
-            <h3>Networking Solutions</h3>
+          <article class="service-card reveal">
+            <div class="service-icon">🌐</div>
+            <h3>Networking</h3>
             <p>
-              Network setup, Wi-Fi configuration, connectivity
-              troubleshooting and network maintenance.
+              Wi-Fi setup, network configuration, connectivity
+              troubleshooting and maintenance.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
           </article>
 
-          <article class="card">
-            <div class="card-icon">🖥️</div>
+          <article class="service-card reveal">
+            <div class="service-icon">🖥️</div>
             <h3>Web Design</h3>
             <p>
-              Clean, responsive websites for individuals,
-              small businesses and growing brands.
+              Responsive websites for individuals, startups,
+              small businesses and personal brands.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
           </article>
 
-          <article class="card">
-            <div class="card-icon">🎨</div>
+          <article class="service-card reveal">
+            <div class="service-icon">🎨</div>
             <h3>Graphic Design</h3>
             <p>
-              Posters, promotional materials, social media graphics
-              and business branding.
+              Promotional posters, social media graphics,
+              marketing materials and brand visuals.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
           </article>
 
-          <article class="card">
-            <div class="card-icon">🔐</div>
+          <article class="service-card reveal">
+            <div class="service-icon">🔐</div>
             <h3>Digital Solutions</h3>
             <p>
-              Technology guidance and digital tools to help
-              individuals and businesses work efficiently.
+              Practical digital tools and technology guidance
+              to support everyday business operations.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
           </article>
 
-          <article class="card">
-            <div class="card-icon">📡</div>
+          <article class="service-card reveal">
+            <div class="service-icon">📡</div>
             <h3>ICT Consultancy</h3>
             <p>
-              Practical ICT advice to help you choose,
-              configure and maintain technology.
+              Guidance on choosing, setting up and maintaining
+              technology for your needs.
             </p>
+            <a class="text-link" href="#contact">Ask about this service →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual reveal" aria-hidden="true">⚡</div>
+
+        <div class="about-copy reveal">
+          <span class="eyebrow">About JTech</span>
+          <h2>Driven by innovation. Powered by technology.</h2>
+
+          <p>
+            JTech Innovations is a technology-focused brand committed
+            to making digital tools more accessible, useful and
+            effective for individuals and businesses.
+          </p>
+
+          <p>
+            We believe in continuous learning, creative problem-solving
+            and providing practical solutions that meet real needs.
+          </p>
+
+          <div class="feature-list">
+            <span>Practical, solution-focused thinking</span>
+            <span>Modern and adaptable digital tools</span>
+            <span>A commitment to learning and improvement</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Our capabilities</span>
+          <h2>Ideas into digital experiences.</h2>
+          <p>
+            Explore the kinds of projects JTech Innovations can
+            develop. Replace these examples with your real work
+            as you complete projects.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card reveal">
+            <div class="project-preview" aria-hidden="true">🌍</div>
+            <div class="project-info">
+              <h3>Business Websites</h3>
+              <p>
+                Responsive websites designed to help businesses
+                present their services online.
+              </p>
+            </div>
           </article>
 
+          <article class="project-card reveal">
+            <div class="project-preview" aria-hidden="true">🎨</div>
+            <div class="project-info">
+              <h3>Brand & Graphics</h3>
+              <p>
+                Visual content for promotions, business identity
+                and social media communication.
+              </p>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-preview" aria-hidden="true">🛜</div>
+            <div class="project-info">
+              <h3>Network Solutions</h3>
+              <p>
+                Network planning, setup and troubleshooting
+                for connected devices and workspaces.
+              </p>
+            </div>
+          </article>
         </div>
+
+        <p class="portfolio-note">
+          These are service examples, not claims of completed client projects.
+        </p>
       </div>
     </section>
 
-    <section class="about" id="about">
+    <section class="content-section" id="contact">
       <div class="container">
-        <div class="about-content">
-          <span class="eyebrow">About our brand</span>
-          <h2>Driven by Innovation, Powered by Tech.</h2>
-
+        <div class="contact-panel reveal">
+          <span class="eyebrow">Let's work together</span>
+          <h2>Have a project in mind?</h2>
           <p>
-            JTech Innovations is focused on making technology
-            accessible, useful and effective. Our goal is to help
-            clients solve everyday technology challenges through
-            reliable support and creative digital solutions.
+            Tell us what you need. Contact JTech Innovations
+            to discuss your website, design, networking or
+            computer support enquiry.
           </p>
 
-          <p>
-            We believe in continuous learning, quality service
-            and building solutions that make a difference.
+          <div class="button-row">
+            <a class="button" id="whatsapp-link"
+              href="https://wa.me/254714810649?text=Hello%20JTech%20Innovations%2C%20I%20would%20like%20to%20make%20an%20inquiry."
+              target="_blank" rel="noopener noreferrer">
+              Chat on WhatsApp ↗
+            </a>
+
+            <a class="button button-outline"
+              href="mailto:jeffersonmuriithi377@gmail.com">
+              Email Us
+            </a>
+          </div>
+          <p class="portfolio-note">
+            Replace the sample email with your real business email before launch.
           </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <div class="contact-box">
-          <h2>Let's Build Something Better</h2>
-
-          <p>
-            Have a project, need technical support, or want to
-            improve your business online? Let's talk.
-          </p>
-
-          <a class="button"
-             href="https://wa.me/254714810649?text=Hello%20JTech%20Innovations%2C%20I%20need%20your%20services.">
-            Chat With Us on WhatsApp
-          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>
-        © <span id="year">2026</span> JTech Innovations.
-        All rights reserved.
-      </p>
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© <span id="year"></span> JTech Innovations. All rights reserved.</p>
+
+      <div class="footer-links">
+        <a href="#home">Back to top ↑</a>
+        <a href="#contact">Contact</a>
+      </div>
     </div>
   </footer>
-
-  <script>
-    document.getElementById("year").textContent =
-      new Date().getFullYear();
-  </script>
-
 </body>
 </html>
